@@ -1,0 +1,182 @@
+*{
+  margin:0;
+  padding:0;
+}
+/* Navbar CSS */
+.navbar{
+  display:flex;
+  font-size:large;
+  padding-top:20px;
+}
+/* Navbar title */
+.navbar_title{
+margin-left:40px;
+}
+.navbar_title h3{
+  color:black;
+}
+/* Navbar option */
+.navbar_option{
+margin-left:60%;
+}
+.navbar_option ul{
+  display:flex;
+}
+.navbar_list{
+  padding-left:40px;
+list-style-type:none;
+}
+.navbar_list li{
+  color:#454444;
+}
+.navbar_list i{
+  color:#454444;
+}
+/* Navbar CSS */
+/* Zone CSS */
+.zone{
+  display:flex;
+  margin-top:30px;
+}
+/* Zone text */
+.zone_text{
+  padding:140px;
+}
+.zone_text h1{
+  font-size:40px;
+  margin-bottom:10px;
+  width:200px;
+}
+.zone_text h3{
+  color:#454444;
+}
+/* Zone img */
+.zone_img{
+  margin-left:100px;
+  margin-top:30px;
+}
+.zone_img img{
+  border-radius:65px;
+  width:500px;
+  height:300px;
+}
+/* Established CSS */
+.established{
+display:flex;
+}
+/* Established text */
+.established_text{
+  width:400px;
+  margin-left:140px;
+  margin-top:50px;
+}
+.established_text p{
+  color:#454444;
+  margin-top:20px;
+}
+.established_footer{
+  display:flex;
+}
+.established_footer p{
+  color:#454444;
+  margin-top:20px;
+}
+.established_footer a{
+margin-left:220px;
+text-decoration:none;
+margin-top:20px;
+color:black;
+}
+/* Established img */
+.established_img{
+  margin-left:150px;
+}
+.established_img img{
+  width:400px;
+  height:200px;
+}
+/* Established CSS */
+/* Card section CSS */
+.parental_card{
+ display:grid;
+ grid-template-columns:0.5fr 0.5fr 0.5fr;
+ margin-top:50px;
+}
+/* Card CSS */
+.card{
+  width:300px;
+  margin-left:55px;
+}
+.card_img img{
+  width:290px;
+  height:170px;
+}
+.card_text{
+  padding-left:10px;
+  padding-top:20px;
+}
+.card_text h3{
+  color:#454444;
+}
+.card_text p{
+  color:#C1C7D1;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+.card_footer span{
+       color:#C1C7D1;
+}
+.card_footer a{
+  margin-left:107px;
+  color:black;
+  text-decoration:none;
+}
+/* Card section CSS */
+/* Lorem setion CSS */
+.lorem{
+  margin-top:50px
+}
+.lorem-img img{
+  height:350px;
+ width:350px;
+}
+/* Lorem setion CSS */
+/* See more CSS */
+.parental{
+  text-align:right;
+  margin-right:210px;
+  margin-top:30px;
+}
+.parental button{
+  border:1px solid purple;
+  background-color:purple;
+  padding:8px;
+  color:white;
+  border-radius:5px;
+}
+/* See more CSS */
+/* Footer CSS */
+.parental_footer{
+  display:flex;
+  margin-top:80px;
+}
+/* Footer text */
+.footer_text{
+  margin-left:133px;
+}
+.footer_text span{
+  color:#6C7584;
+}
+/* footer icon */
+.footer_icon ul{
+  display:flex;
+  margin-left:480px;
+}
+.container_icon li{
+  padding-left:30px;
+  list-style-type:none;
+}
+.container_icon i{
+  color:#6C7584;
+}
+/* Footer CSS */
