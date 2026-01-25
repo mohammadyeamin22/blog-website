@@ -7,6 +7,9 @@
   display:flex;
   font-size:large;
   padding-top:20px;
+  position: sticky;
+  top: 0;
+  background-color:white;
 }
 /* Navbar title */
 .navbar_title{
@@ -26,8 +29,9 @@ margin-left:60%;
   padding-left:40px;
 list-style-type:none;
 }
-.navbar_list li{
+.navbar_list a{
   color:#454444;
+  text-decoration:none;
 }
 .navbar_list i{
   color:#454444;
@@ -155,6 +159,51 @@ color:black;
   border-radius:5px;
 }
 /* See more CSS */
+/* Blog img CSS */
+.blog_img{
+  text-align:center;
+  margin-top:50px;
+}
+.blog_img img{
+  width:780px;
+  height:390px;
+}
+/* Blog img CSS */
+/* Blog Text */
+.blog_text{
+  margin-left:233px;
+  margin-top:30px;
+}
+.blog_text h1{
+  color:#2D3748;
+}
+.blog_text span{
+  color:#2D3748;
+  font-weight:bold;
+  margin-top:15px;
+}
+/* Blog Text */
+/* Blog information1 */
+.blog_information1{
+  width:1050px;
+  margin-top: 50px;
+}
+.blog_information1 h4{
+  color:#2D3748;
+   padding-left:230px;
+   margin-bottom:15px;
+}
+.blog_information1 h2{
+  color:black;
+     padding-left:230px;
+      margin-bottom:15px;
+}
+.blog_information1 p{
+ color:#C1C7D1;
+ padding-left:230px;
+}
+  
+/* Blog information1 */
 /* Footer CSS */
 .parental_footer{
   display:flex;
