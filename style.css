@@ -212,6 +212,7 @@ color:black;
 /* Footer text */
 .footer_text{
   margin-left:133px;
+  margin-bottom:20px
 }
 .footer_text span{
   color:#6C7584;
