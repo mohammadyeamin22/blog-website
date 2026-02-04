@@ -1,0 +1,269 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width:575.98px){
+  /* Navbar media css */
+    .navbar{
+    width:575px;
+  }
+  .navbar_option{
+    margin-left:18%;
+  }
+  .navbar_list{
+    padding-left:30px;
+  }
+  /* Zone media css */
+  .zone{
+    display:block;
+  }
+  .zone_text{
+  padding:100px 150px;
+}
+.zone_img{
+  margin-left:40px;
+  margin-top:30px;
+}
+/* Established media css */
+.established{
+  display:block;
+}
+.established_text{
+  margin-left:42px;
+}
+.established_img{
+ margin-left:40px;
+ margin-top:50px;
+}
+/* Card media css */
+.parental_card{
+ grid-template-columns:1fr;
+}
+.card{
+ padding-left:80px;
+}
+/* See more media css */
+.parental{
+  margin-right:183px;
+}
+/* Blog img media css */
+.blog_img img{
+  width:500px;
+}
+/* Blog text media css */
+.blog_text{
+  margin-left:38px;
+}
+/* blog information01 media css */
+.blog_information1{
+width:575px;
+}
+.blog_information1 h4{
+  padding-left:5px;
+}
+.blog_information1 p{
+  padding-left:5px;
+}
+.blog_information1 h2{
+padding-left:5px;
+}
+/* Footer media css */
+.parental_footer{
+  display:block;
+}
+.footer_icon ul{
+  margin-left:0px;
+justify-content:center;
+}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width:576px) and (max-width:767.98px){
+  /* Navbar media css */
+    .navbar{
+    width:767px;
+  }
+  .navbar_option{
+    margin-left:30%;
+  }
+  .navbar_list{
+    padding-left:40px;
+  }
+    /* Zone media css */
+  .zone_text{
+  padding:100px 40px;
+}
+.zone_img{
+  margin-left:10px;
+  margin-top:30px;
+}
+.zone_img img{
+  width:400px;
+}
+/* Established media css */
+.established{
+  display:flex;
+  margin-top:50px;
+}
+.established_text{
+  margin-left:35px;
+}
+.established_img{
+ margin-left:5px;
+ margin-top:50px;
+}
+.established_img img{
+width:300px;
+}
+/* Card media css */
+.parental_card{
+ grid-template-columns:1fr 1fr;
+ gap:0px;
+}
+.card{
+ padding-left:50px;
+ padding-top:10px;
+}
+/* See more media css */
+.parental{
+  margin-right:27px;
+}
+/* Blog img media css */
+.blog_img img{
+  width:700px;
+}
+/* Blog img media css */
+.blog_img img{
+  width:700px;
+}
+/* blog information01 media css */
+.blog_information1{
+width:767px;
+}
+.blog_information1 h4{
+  padding-left:20px;
+}
+.blog_information1 p{
+  padding-left:20px;
+}
+.blog_information1 h2{
+padding-left:20px;
+}
+/* Footer media css */
+.parental_footer{
+  display:block;
+}
+.footer_text{
+  margin-left:250px;
+}
+.footer_icon ul{
+  margin-left:0px;
+justify-content:center;
+}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width:768px) and (max-width:991.98px){
+   /* Navbar media css */
+    .navbar{
+    width:991px;
+  }
+  .navbar_option{
+    margin-left:45%;
+  }
+  .navbar_list{
+    padding-left:45px;
+  }
+      /* Zone media css */
+      .zone{
+        width:991px;
+      }
+  .zone_text{
+  padding:100px 100px;
+}
+.zone_img{
+  margin-left:10px;
+  margin-top:30px;
+}
+/* Established media css */
+.established{
+  display:flex;
+  margin-top:50px;
+}
+.established_text{
+  margin-left:35px;
+}
+.established_img{
+ margin-left:40px;
+ margin-top:50px;
+}
+/* Card media css */
+.parental_card{
+ grid-template-columns:1fr 1fr 1fr;
+ gap:0px;
+}
+.card{
+ padding-left:20px;
+}
+/* See more media css */
+.parental{
+  margin-right:162px;
+}
+/* blog information01 media css */
+.blog_information1{
+width:991px;
+}
+.blog_information1 h4{
+  padding-left:20px;
+}
+.blog_information1 p{
+  padding-left:20px;
+}
+.blog_information1 h2{
+padding-left:20px;
+}
+/* Footer media css */
+.parental_footer{
+  display:block;
+}
+.footer_text{
+margin-left:360px;
+}
+.footer_icon ul{
+  margin-left:0px;
+justify-content:center;
+}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width:992px) and (max-width:1199.98px){
+     /* Navbar media css */
+    .navbar{
+    width:1199px;
+  }
+  .navbar_option{
+    margin-left:52%;
+  }
+  .navbar_list{
+    padding-left:50px;
+  }
+  /* See more media css */
+.parental{
+  margin-right:162px;
+}
+/* blog information01 media css */
+.blog_information1{
+width:1199px;
+}
+.blog_information1 h4{
+  padding-left:20px;
+}
+.blog_information1 p{
+  padding-left:20px;
+}
+.blog_information1 h2{
+padding-left:20px;
+}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px){
+
+}
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (max-width:1400px){
+
+}
